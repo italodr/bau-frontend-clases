@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+    <link rel="stylesheet" type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@300&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+
+  <body>
+    <header class="header">
+      <a class="logo" href="/">
+        <img src="https://picsum.photos/150/80" alt="" />
+      </a>
+      <nav class="nav">
+        <ul class="menu">
+          <li class="menu-item"><a class="menu-link" href="/">Home</a></li>
+          <li class="menu-item"><a class="menu-link" href="/about">About</a></li>
+          <li class="menu-item"><a class="menu-link" href="/portfolio">Portfolio</a></li>
+          <li class="menu-item"><a class="menu-link" href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-trigger js-menu-toggle">
+        <svg class="menu-open" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M501.333 96H10.667C4.779 96 0 100.779 0 106.667s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667S507.221 96 501.333 96zM501.333 245.333H10.667C4.779 245.333 0 250.112 0 256s4.779 10.667 10.667 10.667h490.667c5.888 0 10.667-4.779 10.667-10.667s-4.78-10.667-10.668-10.667zM501.333 394.667H10.667C4.779 394.667 0 399.445 0 405.333 0 411.221 4.779 416 10.667 416h490.667c5.888 0 10.667-4.779 10.667-10.667-.001-5.888-4.78-10.666-10.668-10.666z" />
+        </svg>
+        <svg class="menu-close" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512.001 512.001">
+          <path
+            d="M284.286 256.002L506.143 34.144c7.811-7.811 7.811-20.475 0-28.285-7.811-7.81-20.475-7.811-28.285 0L256 227.717 34.143 5.859c-7.811-7.811-20.475-7.811-28.285 0-7.81 7.811-7.811 20.475 0 28.285l221.857 221.857L5.858 477.859c-7.811 7.811-7.811 20.475 0 28.285a19.938 19.938 0 0014.143 5.857 19.94 19.94 0 0014.143-5.857L256 284.287l221.857 221.857c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285L284.286 256.002z" />
+        </svg>
+      </button>
+    </header>
+    <main class="main">
+      <h1>Varios ejemplos de Front</h1>
+      <h2>Este es un subtítulo</h2>
+      <section style="min-height: 100vh;">
+        <h1 class="title">Clase de Javascript</h1>
+        <p>Leverage agile frameworks to provide a robust synopsis for high level overviews.
+          Iterative
+          approaches to corporate strategy foster collaborative thinking to further the overall
+          value
+          proposition. Organically grow the holistic world view of disruptive innovation via
+          workplace
+          diversity and empowerment.</p>
+        <ul>
+          <li>Bring to the table win-win survival strategies to ensure proactive domination.</li>
+          <li>At the end of the day, going forward, a new normal that has evolved from generation X
+            is
+            on the
+            runway heading towards
+            a streamlined cloud solution.</li>
+          <li>User generated content in real-time will have multiple touchpoints for offshoring.
+          </li>
+          <li>Capitalize on low hanging fruit to identify a ballpark value added activity to beta
+            test.</li>
+          <li>Override the digital divide with additional clickthroughs from DevOps.</li>
+        </ul>
+        <a href="https://baued.es" id="link" class="link">Este es un link</a>
+        <button class="open js-toggle">Abrir popup</button>
+      </section>
+
+      <section data-aos="fade-up" data-aos-duration="800"
+        style="min-height: 30vh; background: rebeccapurple;"></section>
+      <section data-aos="flip-left" data-aos-duration="800"
+        style="min-height: 30vh; background: pink;"></section>
+      <section data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300"
+        data-aos-offset="40" style="min-height: 30vh; background: lightcoral;"></section>
+      <section style="min-height: 30vh; background: lightgreen;"></section>
+
+      <div class="slider">
+        <div><img src="https://picsum.photos/600/400?random=1"></div>
+        <div><img src="https://picsum.photos/600/400?random=2"></div>
+        <div><img src="https://picsum.photos/600/400?random=3"></div>
+        <div><img src="https://picsum.photos/600/400?random=4"></div>
+        <div><img src="https://picsum.photos/600/400?random=5"></div>
+      </div>
+
+      <section class="faqs">
+        <h2>Frequntly Asked Questions</h2>
+        <ul class="accordion">
+          <li>
+            <button class="accordion-question js-accordion">Pregunta 1: Esta es una
+              pregunta</button>
+            <div class="accordion-info">
+              <p>Liquorice toffee cupcake. Bear claw donut bear claw gingerbread biscuit soufflé
+                tart. Jelly danish
+                dragée jelly liquorice jelly-o icing. Cotton candy gummies jelly beans topping
+                macaroon carrot cake.
+                Cake tart pastry chocolate cake sugar plum gummies biscuit cake. Pudding chocolate
+                bar fruitcake
+                cake muffin muffin marshmallow cotton candy dessert. Pudding topping marshmallow
+                wafer toffee
+                liquorice. Pudding cheesecake dragée. Marzipan candy canes tiramisu donut lemon
+                drops soufflé
+                pudding. Jelly beans bonbon brownie. Tart icing liquorice topping chupa chups. Icing
+                marshmallow
+                gingerbread sweet roll jujubes soufflé cupcake carrot cake. Chupa chups marshmallow
+                cookie.</p>
+              <p>Danish sweet roll marshmallow lemon drops toffee cupcake. Jelly-o pudding bear claw
+                danish bonbon.
+                Sugar plum powder ice cream jelly-o. Lollipop croissant donut jelly donut ice cream.
+                Halvah jujubes
+                gummies bonbon candy jujubes cake jujubes. Chocolate bar brownie ice cream.
+                Cheesecake chocolate
+                cake tart gingerbread. Cake donut sugar plum apple pie tiramisu lollipop. Jelly-o
+                macaroon marzipan
+                jelly cake liquorice toffee tiramisu. Macaroon gummies jelly beans cake. Jelly beans
+                icing sugar
+                plum chocolate cake tart chocolate bar candy canes cake sweet. Gummies powder
+                tiramisu jujubes.
+                Croissant biscuit chupa chups jujubes.</p>
+            </div>
+          </li>
+          <li>
+            <button class="accordion-question js-accordion">Pregunta 2: Esta es una
+              pregunta</button>
+            <div class="accordion-info">
+              <p>Liquorice toffee cupcake. Bear claw donut bear claw gingerbread biscuit soufflé
+                tart. Jelly
+                danish
+                dragée jelly liquorice jelly-o icing. Cotton candy gummies jelly beans topping
+                macaroon carrot
+                cake.
+              </p>
+              <img src="https://picsum.photos/600/300" alt="" />
+            </div>
+          </li>
+          <li>
+            <button class="accordion-question js-accordion">Pregunta 3: Esta es una
+              pregunta</button>
+            <div class="accordion-info">
+              <p>Liquorice toffee cupcake. Bear claw donut bear claw gingerbread biscuit soufflé
+                tart. Jelly
+                danish
+                dragée jelly liquorice jelly-o icing. Cotton candy gummies jelly beans topping
+                macaroon carrot
+                cake.
+                Cake tart pastry chocolate cake sugar plum gummies biscuit cake. Pudding chocolate
+                bar
+                fruitcake
+                cake muffin muffin marshmallow cotton candy dessert. Pudding topping marshmallow
+                wafer toffee
+                liquorice. Pudding cheesecake dragée. Marzipan candy canes tiramisu donut lemon
+                drops soufflé
+                pudding. Jelly beans bonbon brownie. Tart icing liquorice topping chupa chups. Icing
+                marshmallow
+                gingerbread sweet roll jujubes soufflé cupcake carrot cake. Chupa chups marshmallow
+                cookie.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer></footer>
+
+    <div class="popup js-popup">
+      Este es un pop up<br>
+      <button class="close js-toggle">Cerrar popup</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+
+</html>
